@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myfirstglassapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="com.google.android.glass.permission.DEVELOPMENT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.sensor.proximity" />
+
+    <!-- permission required by funf -->
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/detect_logo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.DeviceDefault" >
+        <activity
+            android:name="com.example.myfirstglassapp.CloudletSelectionActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <service android:name="edu.mit.media.funf.FunfManager" >
+            <meta-data
+                android:name="default"
+                android:value="@string/default_pipeline" />
+        </service>
+
+        <receiver
+            android:name="edu.mit.media.funf.Launcher"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_CHANGED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.DOCK_EVENT" />
+                <action android:name="android.intent.action.ACTION_SCREEN_ON" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.example.myfirstglassapp.MainService"
+            android:enabled="true"
+            android:exported="true"
+            android:icon="@drawable/detect_logo"
+            android:label="@string/app_name" >
+        </service>
+
+        <activity
+            android:name="com.example.myfirstglassapp.MainActivity"
+            android:label="@string/title_activity_about" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.google.android.glass.action.VOICE_TRIGGER" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.google.android.glass.VoiceTrigger"
+                android:resource="@xml/voice_trigger_start" />
+        </activity>
+        <activity
+            android:name="com.example.myfirstglassapp.LiveCardMenuActivity"
+            android:label="@string/title_activity_live_card_menu" >
+        </activity>
+        <activity
+            android:name="com.example.myfirstglassapp.ActionSelectionActivity"
+            android:label="@string/title_activity_actionselection" >
+        </activity>
+    </application>
+
+</manifest>

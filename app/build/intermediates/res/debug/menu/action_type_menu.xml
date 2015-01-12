@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_calibre"
+        android:title="@string/calibre"></item>
+    <item
+        android:id="@+id/action_listening"
+        android:title="@string/m1"></item>
+    <item
+        android:id="@+id/action_note_taking"
+        android:title="@string/m7"></item>
+    <item
+        android:id="@+id/action_playing_with_phone"
+        android:title="@string/m2"></item>
+    <item
+        android:id="@+id/action_sleeping_head_back"
+        android:title="@string/m3"></item>
+    <item
+        android:id="@+id/action_sleeping_head_down"
+        android:title="@string/m4"></item>
+    <item
+        android:id="@+id/action_looking_out"
+        android:title="@string/m5"></item>
+    <item
+        android:id="@+id/action_cheating"
+        android:title="@string/m6"></item>
+    <item
+        android:id="@+id/action_speaking_with_friend"
+        android:title="@string/m8"></item>
+</menu><!-- From: file:/D:/Android/MyFirstGlassApp1/app/src/main/res/menu/action_type_menu.xml -->

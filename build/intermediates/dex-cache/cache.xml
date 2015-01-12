@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android\MyFirstGlassApp1\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="D:\Android\MyFirstGlassApp1\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-23fb195633c6592e680cacb5cf98a384996db640.jar" />
+    </item>
+    <item
+        jar="D:\Android\MyFirstGlassApp1\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="D:\Android\MyFirstGlassApp1\app\build\intermediates\pre-dexed\debug\classes-44e0b0d6e54201a611a682c49bd7065865df4ec4.jar" />
+    </item>
+    <item
+        jar="D:\Android\MyFirstGlassApp1\app\gson-2.1.funf.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="fcc6058b45c5c81d9f424b8eca6dd909eb9ae2b5">
+        <dex dex="D:\Android\MyFirstGlassApp1\app\build\intermediates\pre-dexed\debug\gson-2.1.funf-54a7e5b83ba6e8d9a7b79f8b98d8270f5bcc59a4.jar" />
+    </item>
+    <item
+        jar="D:\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="D:\Android\MyFirstGlassApp1\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-f049a32939fe37978093cf1b512e8c3fc5b8d14e.jar" />
+    </item>
+
+</items>

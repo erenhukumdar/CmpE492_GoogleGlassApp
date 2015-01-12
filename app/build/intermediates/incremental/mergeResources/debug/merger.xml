@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="20.0.0"><source path="D:\Android\MyFirstGlassApp1\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\res"/></dataSet><dataSet config="main"><source path="D:\Android\MyFirstGlassApp1\app\src\main\res"><file name="detect_logo" path="D:\Android\MyFirstGlassApp1\app\src\main\res\drawable-hdpi\detect_logo.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Android\MyFirstGlassApp1\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="cloudlet" path="D:\Android\MyFirstGlassApp1\app\src\main\res\drawable-ldpi\cloudlet.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_gear_50" path="D:\Android\MyFirstGlassApp1\app\src\main\res\drawable-ldpi\ic_gear_50.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_lap" path="D:\Android\MyFirstGlassApp1\app\src\main\res\drawable-ldpi\ic_lap.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_no_50" path="D:\Android\MyFirstGlassApp1\app\src\main\res\drawable-ldpi\ic_no_50.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_run_50" path="D:\Android\MyFirstGlassApp1\app\src\main\res\drawable-ldpi\ic_run_50.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_warning_50" path="D:\Android\MyFirstGlassApp1\app\src\main\res\drawable-ldpi\ic_warning_50.png" qualifiers="ldpi-v4" type="drawable"/><file name="images" path="D:\Android\MyFirstGlassApp1\app\src\main\res\drawable-ldpi\images.jpg" qualifiers="ldpi-v4" type="drawable"/><file name="touch_screen" path="D:\Android\MyFirstGlassApp1\app\src\main\res\drawable-ldpi\touch_screen.jpg" qualifiers="ldpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Android\MyFirstGlassApp1\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Android\MyFirstGlassApp1\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Android\MyFirstGlassApp1\app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="activity_cloudlet_selection" path="D:\Android\MyFirstGlassApp1\app\src\main\res\layout\activity_cloudlet_selection.xml" qualifiers="" type="layout"/><file name="activity_live_card" path="D:\Android\MyFirstGlassApp1\app\src\main\res\layout\activity_live_card.xml" qualifiers="" type="layout"/><file name="activity_main" path="D:\Android\MyFirstGlassApp1\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="action_type_menu" path="D:\Android\MyFirstGlassApp1\app\src\main\res\menu\action_type_menu.xml" qualifiers="" type="menu"/><file name="live_card_menu" path="D:\Android\MyFirstGlassApp1\app\src\main\res\menu\live_card_menu.xml" qualifiers="" type="menu"/><file path="D:\Android\MyFirstGlassApp1\app\src\main\res\values\strings.xml" qualifiers=""><string name="hello_world">Hello world!</string><string name="title_activity_menu">MenuActivity</string><string name="preference_file_key">PREFERENCE_FILE_KEY</string><string name="app_name">Attention Detector</string><string name="default_pipeline">
+        {"@type": "edu.mit.media.funf.pipeline.BasicPipeline",
+         "name": "default",
+                "version":1,
+		        "data": [
+		                {"@type": "edu.mit.media.funf.probe.builtin.AccelerometerSensorProbe",
+		                 "sensorDelay": "NORMAL"
+		                },
+		                {"@type": "edu.mit.media.funf.probe.builtin.GyroscopeSensorProbe",
+		                 "sensorDelay": "NORMAL"
+		                },
+		                {"@type": "edu.mit.media.funf.probe.builtin.MagneticFieldSensorProbe",
+		                 "sensorDelay": "NORMAL"
+		                },
+		                {"@type": "edu.mit.media.funf.probe.builtin.ProximitySensorProbe",
+		                 "sensorDelay": "NORMAL"
+		                },
+		                {"@type": "edu.mit.media.funf.probe.builtin.LightSensorProbe",
+		                 "sensorDelay": "NORMAL"
+		                }
+		        ]
+        }
+    </string><string name="title_activity_live_card_menu">LiveCardMenuActivity</string><string name="m6">Cheating</string><string name="m5">Looking out</string><string name="open_app">Open App</string><string name="reset_settings">Reset Settings</string><string name="m4">Sleeping Head Down</string><string name="exit">Exit</string><string name="m3">Sleeping Head Back</string><string name="m2">Playing with Phone</string><string name="m1">Listening Carefully</string><string name="calibre">Calibrate</string><string name="title_activity_about">AboutActivity</string><string name="action_type">ACTION_TYPE</string><string name="cloudlet_ip">CLOUDLET_IP</string><string name="title_activity_actionselection">ActionSelection</string><string name="m8">Speaking with Friend</string><string name="about">About</string><string name="m7">Note Taking</string></file><file path="D:\Android\MyFirstGlassApp1\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style></file><file path="D:\Android\MyFirstGlassApp1\app\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="D:\Android\MyFirstGlassApp1\app\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file><file name="voice_trigger_start" path="D:\Android\MyFirstGlassApp1\app\src\main\res\xml\voice_trigger_start.xml" qualifiers="" type="xml"/></source><source path="D:\Android\MyFirstGlassApp1\app\build\generated\res\rs\debug"/><source path="D:\Android\MyFirstGlassApp1\app\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="D:\Android\MyFirstGlassApp1\app\src\debug\res"/></dataSet><mergedItems/></merger>

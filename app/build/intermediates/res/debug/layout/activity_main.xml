@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextureView
+        android:id="@+id/scan_preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/SubTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Title"
+        android:layout_below="@+id/Title"
+        android:layout_marginTop="16dp"
+        android:text="Tab to configure..."
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="20dp"
+        android:text="No server Connection!"
+        android:textSize="34sp" />
+
+</RelativeLayout>
+<!-- From: file:/D:/Android/MyFirstGlassApp1/app/src/main/res/layout/activity_main.xml -->
